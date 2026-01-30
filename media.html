@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Multimedia</h1></header>
+    <nav><a href="index.html">Home</a> | <a href="media.html">Gallery</a></nav>
+    <main>
+        <section style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+            <figure style="border: 1px solid #ddd; padding: 10px; background: #fff; border-radius: 10px;">
+                <img src="./image.jfif" alt="Work" style="max-width: 100%; border-radius: 10px;">
+                <figcaption style="text-align: center; margin-top: 10px;">Our Latest Project</figcaption>
+            </figure>
+            <div style="width: 100%; margin-top: 30px; margin-left: 25%;">
+                <h3>Listen Our Promo</h3>
+                <audio controls style="width: 100%; max-width: 500px;">
+                    <source src="./audio.weba" type="audio/mp3">
+                </audio>
+            </div>
+            
+            <div style="width: 100%; margin-top: 30px; margin-left: 25%;">
+                <h3>Watch Our Promo</h3>
+                <video controls style="width: 100%; max-width: 500px; border-radius: 10px;">
+                    <source src="./video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
